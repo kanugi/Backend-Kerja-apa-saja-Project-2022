@@ -1,0 +1,16 @@
+image: ruby:3.1.2
+
+before_script:
+  - apt-get update -qq && apt-get install -y curl
+  - curl -L https://fly.io/install.sh | sh
+
+stages:
+  - staging
+
+staging:
+  stage: staging
+  image: ruby:3.1.2
+  script:
+    - /root/.fly/bin/fly deploy
+  only:
+    - staging

@@ -1,0 +1,11 @@
+development:
+  cloud_name: "dotrs4z33"
+  api_key: "593686631632666"
+  api_secret: "WeWwVB14bjpoNO7fDsAqJOAsuP8"
+  secure: true
+
+production:
+  cloud_name: "dotrs4z33"
+  api_key: "593686631632666"
+  api_secret: "WeWwVB14bjpoNO7fDsAqJOAsuP8"
+  secure: true
